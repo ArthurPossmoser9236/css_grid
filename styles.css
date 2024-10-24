@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.limiter {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pratica {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container1,
+.container2,
+.container3 {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.container3 {
+    gap: 0;
+}
+
+.gridItem {
+    width: 100px;
+    height: 100px;
+}
+
+.order3 {
+    grid-column: 1/3;
+    
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
